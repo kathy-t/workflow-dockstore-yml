@@ -1,0 +1,7 @@
+version: 1.2
+class: workflow
+workflows:
+       -  name: foobar
+          subclass: wdl
+          primaryDescriptorPath: /Dockstore.wdl
+          testParameterFiles: /dockstore.wdl.json
