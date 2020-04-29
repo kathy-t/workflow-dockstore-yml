@@ -5,8 +5,4 @@ workflows:
           primaryDescriptorPath: /Dockstore2.wdl
           testParameterFiles:
               - /dockstore.wdl.json
-       -  name: foobar2
-          subclass: cwl
-          primaryDescriptorPath: /Dockstore.cwl
-          testParameterFiles:
-              - /dockstore.cwl.json
+              - /idonotexist.json
