@@ -1,10 +1,11 @@
 
 cwlVersion: v1.0
 class: Workflow
+doc: "This is a description"
 
 dct:creator:
   foaf:name: Test User
-  foaf:mbox: mailto:test@dockstore.com
+  foaf:mbox: mailto:test@dockstore.org
 
 inputs:
   input_file: File
