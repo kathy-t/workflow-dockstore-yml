@@ -2,6 +2,10 @@
 cwlVersion: v1.0
 class: Workflow
 
+dct:creator:
+  foaf:name: Test User
+  foaf:mbox: mailto:test@dockstore.com
+
 inputs:
   input_file: File
 outputs:
