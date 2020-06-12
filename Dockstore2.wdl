@@ -20,4 +20,10 @@ task md5 {
 workflow ga4ghMd5 {
  File inputFile
  call md5 { input: inputFile=inputFile }
+ 
+  meta {
+      author : "Test User"
+      email : "test@dockstore.org"
+      description: "This is a description"
+   }
 }
