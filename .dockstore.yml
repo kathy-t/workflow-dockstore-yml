@@ -5,6 +5,7 @@ workflows:
           primaryDescriptorPath: /Dockstore2.wdl
           testParameterFiles:
               - /dockstore.wdl.json
+          defaultVersion: BRANCH
        -  name: foobar2
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
