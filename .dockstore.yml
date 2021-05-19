@@ -5,10 +5,10 @@ workflows:
           primaryDescriptorPath: /Dockstore2.wdl
           testParameterFiles:
               - /dockstore.wdl.json
-          defaultVersion: BRANCH
+          latestTagAsDefault: false
        -  name: foobar2
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
-          defaultVersion: TAG
+          latestTagAsDefault: true
           testParameterFiles:
               - /dockstore.cwl.json
