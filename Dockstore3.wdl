@@ -39,7 +39,7 @@ task latestDocker {
         echo "hello world"
     }
     runtime {
-        docker: "pkrusche/hap.py:latest"
+        docker: "katetran/dockstore-tool-helloworld:latest"
     }
 }
 
@@ -48,7 +48,7 @@ task versionedDocker {
         echo "hello world"
     }
     runtime {
-        docker: "pkrusche/hap.py:v1.0"
+        docker: "katetran/dockstore-tool-helloworld:1"
     }
 }
 
@@ -57,6 +57,6 @@ task digestDocker {
         echo "hello world"
     }
     runtime {
-        docker: "pkrusche/hap.py@sha256:f63e020c4062e0be8d081a50de16562f2ba161166e896655868efdb5527a8640"
+        docker: "katetran/dockstore-tool-helloworld@sha256:0484449b6bdd6e39a34f630a86e18253f6b88899d64faa652c926e90001c84d4"
     }
 }
