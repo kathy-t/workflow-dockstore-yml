@@ -39,7 +39,7 @@ task latestDocker {
         echo "hello world"
     }
     runtime {
-        docker: "quay.io/kathy_t/dockstore-tool-helloworld"
+        docker: "quay.io/kathy_t/dockstore-tool-helloworld:latest"
     }
 }
 
