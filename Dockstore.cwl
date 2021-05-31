@@ -61,7 +61,7 @@ steps:
           inputBinding:
             position: 1
       outputs: []
-  latestDocker:
+  digestDocker:
     run:
       cwlVersion: v1.1
       class: CommandLineTool
