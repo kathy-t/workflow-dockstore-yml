@@ -19,3 +19,17 @@ steps:
     in:
       input_file: input_file
     out: [output_file]
+  latestDocker:
+    run:
+      cwlVersion: v1.0
+      class: CommandLineTool
+      baseCommand: echo
+      requirements:
+      - class: DockerRequirement
+        dockerPull: katetran/dockstore-tool-helloworld:latest
+      inputs:
+        message:
+          type: string
+          inputBinding:
+            position: 1
+      outputs: []
