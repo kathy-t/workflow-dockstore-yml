@@ -18,7 +18,7 @@ task taglessDocker {
         String out = read_string(stdout())
     }
     runtime {
-        docker: "pkrusche/hap.py"
+        docker: "katetran/dockstore-tool-helloworld"
     }
 }
 
