@@ -4,7 +4,10 @@ workflow myWorkflow {
     String? docker_image   = "quay.io/ucsc_cgl/verifybamid:1.3.0"
 
     call taglessDocker1
+    call taglessDocker2
     call latestDocker1
+    call latestDocker2
+    call latestDocker3
     call parmeterizedDocker
     call versionedDocker
     call digestDocker
