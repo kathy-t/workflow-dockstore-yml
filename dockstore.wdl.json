@@ -1,1 +1,16 @@
-{}
+{
+  "arrayed_input": [
+    {
+      "path": "https://badUrl.com",
+      "class": "File"
+    },
+    {
+      "path": "https://raw.githubusercontent.com/dockstore/dockstore/1.0/README.md",
+      "class": "File"
+    },
+    {
+      "path": "https://raw.githubusercontent.com/dockstore/dockstore/1.0/README.md",
+      "class": "File"
+    }
+  ]
+}
