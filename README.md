@@ -1,2 +1,2 @@
 # workflow-dockstore-yml
-A repo that includes .dockstore.yml. I edited this README.
+A repo that contains a GitHub app workflow.
