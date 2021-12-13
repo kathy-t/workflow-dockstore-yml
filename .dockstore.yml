@@ -9,6 +9,6 @@ workflows:
        -  name: foobar2
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
-          latestTagAsDefault: true
+          latestTagAsDefault: false
           testParameterFiles:
               - /dockstore.cwl.json
